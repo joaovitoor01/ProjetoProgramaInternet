@@ -1,4 +1,4 @@
-import express from 'express';
+import express from "express";
 
 const host = '0.0.0.0';
 const porta=5000;
@@ -10,7 +10,7 @@ function retornaPaginaInicial(requisicao, resposta){
     resposta.write('<head>');
     resposta.write('<meta charset="utf-8">');
     resposta.write('<title>Exibir Tabuada </title>');
-    resposta.write('<p>Informe o parâmetro tabuada na url:  http://localhost:5000/tabuada?tabuada=5&sequencia=10</p>')
+    resposta.write('<p>Informe o parâmetro tabuada na url:  http://localhost:5000/tabuada?tabuada=2&sequencia=10</p>')
     resposta.write('</head>');
     resposta.write('<body>');
     resposta.write('<h1>Exibir Tabuada</h1>');
